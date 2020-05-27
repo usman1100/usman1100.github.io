@@ -1,0 +1,44 @@
+body{
+    background-color: #481380;
+}
+
+.item_container{
+    text-align: center;
+    /* background-color: #ffe2ff; */
+}
+
+.item{
+    display: inline-block;
+    list-style: none;
+    color: #ffe2ff;
+    font-family: 'Thank You So Much';
+    font-size: 46px;
+    border: 2px #ffe2ff solid;
+    width: min-content;
+    margin: 1%;
+    padding: 1%;
+}
+
+.item:hover{
+    cursor: pointer;
+    color: #481380;
+    background-color: #ffe2ff;
+    transition: 0.3s;
+}
+
+.first_paragraph{
+    text-align: center;
+    font-family: 'Thank You So Much';
+    font-size: 32px;
+    color: #ffe2ff;
+    border: 2px solid #481380;
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    cursor: default;
+}
+
+.first_paragraph:hover{
+    transition: 0.3s;
+    color: #efb1ff;
+}
